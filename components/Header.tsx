@@ -23,7 +23,7 @@ export const Header: FC = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <header className="bg-gray-900 text-white p-4 sticky top-0 z-50">
+    <header className="bg-gray-900 opacity-90 text-white p-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center gap-2">
         <Link href="/">
           <span className="text-2xl font-bold flex gap-1">
@@ -46,7 +46,7 @@ export const Header: FC = () => {
         </button>
       </nav>
       {isMenuOpen && (
-        <ul className="absolute top-0 left-0 w-full z-20 h-screen bg-gray-900 flex flex-col items-center justify-center space-y-4">
+        <ul className="absolute top-0 left-0 w-full z-20 h-screen bg-gray-900 opacity-90 flex flex-col items-center justify-center space-y-4">
           <button className="absolute top-4 right-4" onClick={toggleMenu}>
             <X size={24} />
           </button>
