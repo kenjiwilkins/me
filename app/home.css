@@ -1,0 +1,23 @@
+.gradient {
+  background: radial-gradient(circle at center, rgba(2,0,36,1) 0%, rgba(22,22,27,1) 51%, rgba(0,6,88,1) 98%);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": {
+    "about": "About",
+    "home": "Home"
+  },
+  "profile": {
+    "name": "Michael Kenji Wilkins",
+    "role": "A Frontend Developer"
+  },
+  "introduction": {
+    "title": "Introduction",
+    "content": [
+      "I am a frontend engineer specialized in developing SPAs using React and Vue.js, and recently I have been challenging full-stack development using SSR frameworks such as Next.js and Nuxt.js.",
+      "I am also familiar with static typing using TypeScript and test-driven development using Jest and Cypress.",
+      "I enjoy keeping up with the latest tech trend and am proactive in learning new tech stack. By leveraging that knowledge, I contribute to improving the quality of not only the project but also the team and the entire product by being involved in technology selection and architecture design."
+    ],
+    "latest": {
+      "title": "Latest Achievements",
+      "content": [
+        "Development of an on-call system using monitoring tools, Slack App, and Twilio",
+        "Development of an audio playback plugin for the browser environment of the music streaming service LINE MUSIC",
+        "Development of an In-App-WebView application for setting ringtone and incoming call sound during calls in the communication app LINE",
+        "Led the introduction and implementation of E2E testing for the LINE MUSIC web app, reducing human QA costs",
+        "Led the migration of the LINE MUSIC web app from Vue 2.x to 3.x and the introduction of TypeScript"
+      ]
+    }
+  },
+  "techstack": {
+    "title": "技術スタック",
+    "content": [
+      {
+        "name": "HTML",
+        "level": "上級",
+        "contents": [
+          "HTMLのタグとその役割を理解しており、HTML Living Standard や HTML5の仕様 を読んで理解できる。",
+          "適切なタグを適材適所で使い、意味のあるマークアップを作成でき、検索エンジンやスクリーンリーダーにとって理解しやすい構造を意識できる。",
+          "`aria-*` 属性を適切に活用し、アクセシブルなWebサイトを構築できる。",
+          "JavaScriptとの関係（イベントの伝播、DOMツリーの影響、Shadow DOMなど）を理解している。Web Components（カスタム要素、Shadow DOM）を活用できる。",
+          "HTML構造がSEOに与える影響を理解している",
+          "HTML Modules や Declarative Shadow DOM など、新しい技術の動向をキャッチアップしている。"
+        ]
+      }
+    ]
+  },
+  "welcome": "Welcome"
+}

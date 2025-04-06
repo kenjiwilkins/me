@@ -1,0 +1,104 @@
+{
+  "title": {
+    "about": "About",
+    "home": "Home"
+  },
+  "profile": {
+    "name": "中嶋マイケル賢侍",
+    "role": "フロントエンドエンジニア"
+  },
+  "introduction": {
+    "title": "自己紹介",
+    "content": [
+      "私はフロントエンドエンジニアです。ReactやVue.jsを用いたSPA開発を得意とし、最近ではNext.jsやNuxt.jsといったSSRフレームワークを利用したフルスタック開発にも挑戦しています。",
+      "また、TypeScriptを用いた静的型付けや、JestやCypressを用いたテスト駆動開発にも慣れています。",
+      "最新の技術を追いかけることが好きで、新しい技術を学ぶことに積極的です。その知見を活かし、技術選定やアーキテクチャ設計にも携わることで、プロジェクトだけでなくチームやプロダクト全体の品質向上に貢献しています。"
+    ],
+    "latest": {
+      "title": "直近の実績",
+      "content": [
+        "監視ツール, Slack AppとTwilioを用いたオンコール用システムの構築",
+        "音楽ストリーミングサービスLINE MUSICのブラウザ環境用の音源再生プラグイン開発",
+        "コミュニケーションアプリLINEの通話時の呼出音・着信音を設定するIn-App-WebView用アプリの開発",
+        "LINE MUSICのwebアプリのE2Eテストの導入・実装を主導し人的QAコストの削減",
+        "LINE MUSICのwebアプリのVue 2.x から3.xへの移行およびTypeScript導入を主導"
+      ]
+    }
+  },
+  "techstack": {
+    "title": "技術スタック",
+    "content": [
+      {
+        "name": "HTML",
+        "level": "上級",
+        "contents": [
+          "HTMLのタグとその役割を理解しており、HTML Living Standard や HTML5の仕様 を読んで理解できる。",
+          "適切なタグを適材適所で使い、意味のあるマークアップを作成でき、検索エンジンやスクリーンリーダーにとって理解しやすい構造を意識できる。",
+          "`aria-*` 属性を適切に活用し、アクセシブルなWebサイトを構築できる。",
+          "JavaScriptとの関係（イベントの伝播、DOMツリーの影響、Shadow DOMなど）を理解している。Web Components（カスタム要素、Shadow DOM）を活用できる。",
+          "HTML構造がSEOに与える影響を理解している",
+          "HTML Modules や Declarative Shadow DOM など、新しい技術の動向をキャッチアップしている。"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "上級",
+        "contents": [
+          "CSSの基本的なプロパティ（セレクタ、ボックスモデル、レイアウト、色、フォント、テキスト、アニメーション、トランジションなど）を理解している。",
+          "CSS設計手法（BEM、OOCSS、SMACSS、Atomic Designなど）を理解している。",
+          "レイアウトシフトの対策やハードウェアアクセラレーションの最適化など、パフォーマンスに配慮したCSS設計ができる。",
+          "CSSの最新仕様を試し、実践投入できるか判断できる。",
+          "特定のCSSフレームワークに依存せず、適切な技術選定ができる。"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "上級",
+        "contents": [
+          "JavaScriptの言語仕様の深い理解があり、ES6以降の新機能を使いこなせる。",
+          "モジュール、ファクトリー、シングルトンやオブザーバーパターンなどのデザインパターンを理解している。",
+          "ESM, CommonJS, UMDなどのモジュールシステムを理解している。",
+          "Web APIとブラウザの仕組み（DOM、BOM、Event Loop、非同期処理、クロスオリジン通信、CORS、Cookie、Local Storage、Session Storage、IndexedDB、Service Workerなど）を理解している。",
+          "JavaScriptのパフォーマンス改善やセキュリティ対策について理解している。",
+          "JavaScriptの最新動向（ESNext、TC39の提案、Babel、TypeScript、Flow、WebAssemblyなど）をキャッチアップしている。"
+        ]
+      },
+      {
+        "name": "Vue.js",
+        "level": "上級",
+        "contents": [
+          "Vue3のComposition, Setup APIを使いこなし、Vue2からの移行を主導できる。",
+          "Pinia, Vuex, composablesなどの状態管理ライブラリ、仕組みを使いこなせる。",
+          "Vue routerを使い、SPAの高度なルーティングを構築できる。",
+          "v-once, v-memo, v-bind='object'の適切な活用、virtual-scrollingやkeep-aliveの適用、レンダリングやパフォーマンスの最適化について理解している。",
+          "Container/Presentational パターンやAtomic Designなどの設計手法を理解している。"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "上級",
+        "contents": [
+          "Virtual DOMによる高速なレンダリングの仕組みを理解している。",
+          "React Hooksを使いこなし、Class ComponentからFunction Componentへの移行を主導できる。",
+          "Redux, jotai, Zustand, Context APIなどの状態管理ライブラリ、仕組みを使いこなせる。",
+          "React Query, SWRなどのデータフェッチライブラリを使い、API通信の最適化を行える。",
+          "React Routerを使い、SPAの高度なルーティングを構築できる。",
+          "Container/Presentational パターンやAtomic Designなどの設計手法を理解している。",
+          "Reactのパフォーマンス改善やセキュリティ対策について理解している。"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "上級",
+        "contents": [
+          "App router, Pages routerの違いを理解し、適切なルーティング設計ができる。",
+          "SSR, SSG, CSR, RSCなどのレンダリング方法を理解し、適切な選択ができる。",
+          "画像最適化、コード分割、プリレンダリング、キャッシュ戦略などのパフォーマンス最適化手法を理解している。",
+          "getStaticProps, getServerSideProps, getStaticPathsなどのデータフェッチメソッドを使いこなせる。",
+          "API Routeや"
+        ]
+      }
+    ]
+  },
+  "welcome": "ようこそ"
+}
