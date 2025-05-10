@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative h-full overflow-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-y-scroll`}
       >
         <Header />
         {children}

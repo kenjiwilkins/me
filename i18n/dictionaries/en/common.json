@@ -25,6 +25,151 @@
       ]
     }
   },
+  "history": {
+    "title": "History",
+    "content": [
+      {
+        "title": "Education",
+        "content": [
+          {
+            "title": "Queensland University of Technology",
+            "major": "Bachelor of Information Technology (Computer Science)",
+            "minor": "Information Technology, Project Management",
+            "period": "12/2021"
+          }
+        ]
+      },
+      {
+        "title": "Work Experience",
+        "content": [
+          {
+            "title": "LINE Corporation",
+            "workType": "Full-time",
+            "period": "12/2021 - Present",
+            "position": "Lead Frontend Developer",
+            "role": "A leader of the frontend team",
+            "teamSize": "10+",
+            "projects": [
+              {
+                "title": "LINE MUSIC",
+                "description": "Maintenance of a web app for a music streaming service",
+                "role": "A frontend developer",
+                "period": "04/2023 - Present",
+                "techstack": [
+                  "Vue",
+                  "Vite",
+                  "TypeScript",
+                  "Sass",
+                  "Vitest",
+                  "Cypress"
+                ]
+              },
+              {
+                "title": "Performance Improvement PoC for Native App WebView-specific Web App",
+                "description": "As the leader of a PoC project, I led the verification and progress of investigating how much switching from a Vue.js SPA to a Next.js+SSR application with an API server built on the same K8s cluster could contribute to improving rendering speed from Native App WebViews. I compiled the findings into information required by the upper planning team.",
+                "role": "Lead Engineer", 
+                "period": "12/2024 - 02/2025",
+                "techstack": [
+                  "Swift",
+                  "Kotlin",
+                  "Next.JS",
+                  "Kubernetes"
+                ]
+              },
+              {
+                "title": "On-call System using Slack App & Twilio",
+                "description": "Built a system for escalating issues to relevant engineers, PMs, and POs during outages not detected by monitoring tools",
+                "role": "Lead Engineer",
+                "period": "11/2024 - 02/2025",
+                "techstack": [
+                  "AWS Lambda",
+                  "AWS IAM",
+                  "Slack App",
+                  "Twilio API"
+                ]
+              },
+              {
+                "title": "LINE MUSIC Media Player Development Leader for Browser",
+                "description": "Led the browser plugin development project for replacing a highly dependent media player in LINE MUSIC's music streaming service as part of system separation from parent company Naver.\nIn addition to development, I detailed specifications that were previously black-boxed to avoid impacting existing systems, coordinated migration plans with products providing LINE MUSIC content playback functionality, and automated delivery from internal npm and CDN.",
+                "role": "Lead Frontend Engineer",
+                "period": "03/2024 - 11/2024",
+                "techstack": [
+                  "TypeScript",
+                  "Webpack",
+                  "npm",
+                  "HLS.js"
+                ]
+              },
+              {
+                "title": "Development Leader of Unreleased Web Application",
+                "description": "As a frontend development leader for an unreleased application involving teams from other products, I was responsible for development, task and progress management, and specification coordination with stakeholders.",
+                "role": "Lead Frontend Engineer",
+                "period": "12/2023 - 03/2024",
+                "techstack": [
+                  "TypeScript",
+                  "Vue",
+                  "Sass",
+                  "Vite",
+                  "Vitest",
+                  "LIFF"
+                ]
+              },
+              {
+                "title": "LINE Ringtone Development Leader",
+                "description": "As the frontend development leader for a LINE-specific WebView application that sets ringtones and incoming call sounds for the LINE communication app, I was responsible for development, task management, progress tracking, and API specification coordination with other teams.\nContributed to achieving KPIs as one of the launch features of LINE Yahoo's premium service 'LYP Premium'.",
+                "role": "Lead Frontend Engineer",
+                "period": "06/2023 - 11/2023",
+                "techstack": [
+                  "TypeScript",
+                  "Vue",
+                  "Sass",
+                  "Vite",
+                  "Vitest",
+                  "LIFF"
+                ]
+              },
+              {
+                "title": "Introduction of Automated Testing to LINE MUSIC Web Application",
+                "description": "Automated 70% of existing manual regression tests for the web application using scheduled Cypress runs in CI, reducing regression QA period by an average of 50%",
+                "role": "Project Manager, Frontend Developer",
+                "period": "07/2022 - 03/2023",
+                "techstack": [
+                  "Cypress",
+                  "JavaScript",
+                  "Vue",
+                  "TestRail"
+                ]
+              },
+              {
+                "title": "Migration of the LINE MUSIC Web app from Vue 2.x to 3.x",
+                "description": "A project to migrate the web app of the music streaming service LINE MUSIC from Vue 2.x to 3.x. In addition to migrating the build from vue-cli to vite and introducing unit test from an environment where it was not introduced to testing-library + vitest. Not only did we achieve the removal of libraries that are EOL, but we also improved performance.",
+                "role": "A frontend developer",
+                "period": "01/2022 - 07/2022",
+                "techstack": [
+                  "Vue",
+                  "Vite",
+                  "TypeScript",
+                  "Sass"
+                ]
+              },
+              {
+                "title": "LINE MUSIC Coin Refund Web App",
+                "description": "Led frontend development of a refund application for LINE MUSIC's song purchase coin feature discontinuation, complying with Payment Services Act. Managed development task breakdown by requirements and design, coordinated development cycles while actively contributing to development. Successfully used Vue 3 for this application as a proof of concept for LINE MUSIC Web app's migration from Vue 2, helping team members familiarize with the new syntax.",
+                "role": "A frontend developer",
+                "period": "01/2022 - 04/2022",
+                "techstack": [
+                  "Vue",
+                  "Vite",
+                  "TypeScript",
+                  "Tailwind CSS"
+                ]
+              }
+            ]   
+          }
+        ]
+      }
+    ]
+  },
   "techstack": {
     "title": "技術スタック",
     "content": [
