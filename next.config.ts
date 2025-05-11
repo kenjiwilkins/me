@@ -1,10 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  i18n: {
-    locales: ['en-US', 'jp'],
-    defaultLocale: 'en-US'
-  }
+  output: 'export',
+  basePath: process.env.PAGES_BASE_PATH,
 };
 
 export default nextConfig;
