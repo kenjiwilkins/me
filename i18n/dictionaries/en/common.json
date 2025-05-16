@@ -4,70 +4,67 @@
     "home": "Home"
   },
   "profile": {
-    "name": "Michael Kenji Wilkins",
-    "role": "A Frontend Developer"
+    "name": "中嶋マイケル賢侍",
+    "role": "フロントエンドエンジニア"
   },
   "introduction": {
-    "title": "Introduction",
+    "title": "自己紹介",
     "content": [
-      "I am a frontend engineer specialized in developing SPAs using React and Vue.js, and recently I have been challenging full-stack development using SSR frameworks such as Next.js and Nuxt.js.",
-      "I am also familiar with static typing using TypeScript and test-driven development using Jest and Cypress.",
-      "I enjoy keeping up with the latest tech trend and am proactive in learning new tech stack. By leveraging that knowledge, I contribute to improving the quality of not only the project but also the team and the entire product by being involved in technology selection and architecture design."
+      "私はフロントエンドエンジニアです。ReactやVue.jsを用いたSPA開発を得意とし、最近ではNext.jsやNuxt.jsといったSSRフレームワークを利用したフルスタック開発にも挑戦しています。",
+      "また、TypeScriptを用いた静的型付けや、JestやCypressを用いたテスト駆動開発にも慣れています。",
+      "最新の技術を追いかけることが好きで、新しい技術を学ぶことに積極的です。その知見を活かし、技術選定やアーキテクチャ設計にも携わることで、プロジェクトだけでなくチームやプロダクト全体の品質向上に貢献しています。"
     ],
     "latest": {
-      "title": "Latest Achievements",
+      "title": "直近の実績",
       "content": [
-        "Development of an on-call system using monitoring tools, Slack App, and Twilio",
-        "Development of an audio playback plugin for the browser environment of the music streaming service LINE MUSIC",
-        "Development of an In-App-WebView application for setting ringtone and incoming call sound during calls in the communication app LINE",
-        "Led the introduction and implementation of E2E testing for the LINE MUSIC web app, reducing human QA costs",
-        "Led the migration of the LINE MUSIC web app from Vue 2.x to 3.x and the introduction of TypeScript"
+        "監視ツール, Slack AppとTwilioを用いたオンコール用システムの構築",
+        "音楽ストリーミングサービスLINE MUSICのブラウザ環境用の音源再生プラグイン開発",
+        "コミュニケーションアプリLINEの通話時の呼出音・着信音を設定するIn-App-WebView用アプリの開発",
+        "LINE MUSICのwebアプリのE2Eテストの導入・実装を主導し人的QAコストの削減",
+        "LINE MUSICのwebアプリのVue 2.x から3.xへの移行およびTypeScript導入を主導"
       ]
     }
   },
   "history": {
-    "title": "History",
+    "title": "経歴",
     "content": [
       {
-        "title": "Education",
+        "title": "学歴",
         "content": [
           {
-            "title": "Queensland University of Technology",
-            "major": "Bachelor of Information Technology (Computer Science)",
-            "minor": "Information Technology, Project Management",
+            "title": "クイーンズランド工科大学",
+            "major": "情報技術学部 コンピュータサイエンス学科",
+            "minor": "情報技術学部 プロジェクトマネジメント学科",
             "period": "12/2021"
           }
         ]
       },
       {
-        "title": "Work Experience",
+        "title": "職務経歴",
         "content": [
           {
-            "title": "LINE Corporation",
-            "workType": "Full-time",
-            "period": "12/2021 - Present",
-            "position": "Lead Frontend Developer",
-            "role": "A leader of the frontend team",
-            "teamSize": "10+",
+            "title": "LINE株式会社",
+            "workType": "正社員",
+            "period": "12/2021 - 現在",
+            "position": "リードフロントエンドエンジニア",
+            "role": "フロントエンドチームのリーダー",
             "projects": [
               {
                 "title": "LINE MUSIC",
-                "description": "Maintenance of a web app for a music streaming service",
-                "role": "A frontend developer",
-                "period": "04/2023 - Present",
+                "description": "音楽ストリーミングサービスのWebアプリケーションの保守開発",
+                "role": "リードフロントエンドエンジニア",
+                "period": "04/2023 - 現在",
                 "techstack": [
                   "Vue",
                   "Vite",
                   "TypeScript",
-                  "Sass",
-                  "Vitest",
-                  "Cypress"
+                  "Sass"
                 ]
               },
               {
-                "title": "Performance Improvement PoC for Native App WebView-specific Web App",
-                "description": "As the leader of a PoC project, I led the verification and progress of investigating how much switching from a Vue.js SPA to a Next.js+SSR application with an API server built on the same K8s cluster could contribute to improving rendering speed from Native App WebViews. I compiled the findings into information required by the upper planning team.",
-                "role": "Lead Engineer", 
+                "title": "Native AppのWebView専用WebAppのパフォーマンス改善PoC",
+                "description": "Vue.js SPAで提供していたWebView用アプリケーションをNext.js+SSRとアプリケーションに変更しAPIサーバーをK8Sの同クラスター上に構築することがNativeAppのWebViewからの描画速度向上にどの程度寄与できるかのPoCプロジェクトのリーダーとして検証項目とその進捗を牽引し、上位企画チームの求める情報としてまとめました。",
+                "role": "リードエンジニア",
                 "period": "12/2024 - 02/2025",
                 "techstack": [
                   "Swift",
@@ -77,9 +74,9 @@
                 ]
               },
               {
-                "title": "On-call System using Slack App & Twilio",
-                "description": "Built a system for escalating issues to relevant engineers, PMs, and POs during outages not detected by monitoring tools",
-                "role": "Lead Engineer",
+                "title": "Slack App & Twilioを用いたオンコールシステム",
+                "description": "監視ツールによる検知外のOutageの際に関係するエンジニアやPM、POへの問題のエスカレーションをするシステムの構築をしました",
+                "role": "リードエンジニア",
                 "period": "11/2024 - 02/2025",
                 "techstack": [
                   "AWS Lambda",
@@ -89,9 +86,9 @@
                 ]
               },
               {
-                "title": "LINE MUSIC Media Player Development Leader for Browser",
-                "description": "Led the browser plugin development project for replacing a highly dependent media player in LINE MUSIC's music streaming service as part of system separation from parent company Naver.\nIn addition to development, I detailed specifications that were previously black-boxed to avoid impacting existing systems, coordinated migration plans with products providing LINE MUSIC content playback functionality, and automated delivery from internal npm and CDN.",
-                "role": "Lead Frontend Engineer",
+                "title": "ブラウザ用LINE MUSICメディアプレイヤー開発リーダー",
+                "description": "親会社のひとつであるNaver社とのシステム分離において音楽ストリーミングサービスLINE MUSICにて依存度の高いメディアプレイヤーの置き換えを行うプロジェクトのブラウザ用プラグイン開発のリーダーを担当しました。\n開発に加え既存のシステムに影響を与えないようにブラックボックスになっていた仕様の詳細化、LINE MUSICコンテンツ再生機能を提供しているプロダクトとの移行計画調整、社内npm, CDNからの配信自動化を行いました。",
+                "role": "リードフロントエンドエンジニア",
                 "period": "03/2024 - 11/2024",
                 "techstack": [
                   "TypeScript",
@@ -101,9 +98,9 @@
                 ]
               },
               {
-                "title": "Development Leader of Unreleased Web Application",
-                "description": "As a frontend development leader for an unreleased application involving teams from other products, I was responsible for development, task and progress management, and specification coordination with stakeholders.",
-                "role": "Lead Frontend Engineer",
+                "title": "未公開Webアプリケーションの開発リーダー",
+                "description": "他プロダクトのチームを交えた未公開アプリケーションのフロントエンド開発リーダーとして開発に加え、タスク・進捗管理、ステークホルダーとの仕様調整を行いました。",
+                "role": "リードフロントエンドエンジニア",
                 "period": "12/2023 - 03/2024",
                 "techstack": [
                   "TypeScript",
@@ -115,9 +112,9 @@
                 ]
               },
               {
-                "title": "LINE Ringtone Development Leader",
-                "description": "As the frontend development leader for a LINE-specific WebView application that sets ringtones and incoming call sounds for the LINE communication app, I was responsible for development, task management, progress tracking, and API specification coordination with other teams.\nContributed to achieving KPIs as one of the launch features of LINE Yahoo's premium service 'LYP Premium'.",
-                "role": "Lead Frontend Engineer",
+                "title": "LINE着うた開発リーダー",
+                "description": "コミュニケーションアプリLINEの通話時の呼出音・着信音を設定するためのLINE専用WebViewアプリケーションのフロントエンド開発リーダーとして、開発に加え、開発タスクと進捗管理、APIなどの他チームとの仕様調整を行いました。\nLINEヤフー社のプレミアムサービスである「LYPプレミアム」のローンチ機能の一つとしてリリースされKPI達成に貢献しました。",
+                "role": "リードフロントエンドエンジニア",
                 "period": "06/2023 - 11/2023",
                 "techstack": [
                   "TypeScript",
@@ -129,9 +126,9 @@
                 ]
               },
               {
-                "title": "Introduction of Automated Testing to LINE MUSIC Web Application",
-                "description": "Automated 70% of existing manual regression tests for the web application using scheduled Cypress runs in CI, reducing regression QA period by an average of 50%",
-                "role": "Project Manager, Frontend Developer",
+                "title": "LINE MUSIC Webアプリケーションへの自動化テストの導入",
+                "description": "CIによるCypressの定期実行を用いてWebアプリケーションにおける既存の手動リグレッションテストの70%を自動化しリグレッションQAにかかる期間を平均50%短縮しました",
+                "role": "プロジェクトマネージャー、フロントエンドエンジニア",
                 "period": "07/2022 - 03/2023",
                 "techstack": [
                   "Cypress",
@@ -141,9 +138,9 @@
                 ]
               },
               {
-                "title": "Migration of the LINE MUSIC Web app from Vue 2.x to 3.x",
-                "description": "A project to migrate the web app of the music streaming service LINE MUSIC from Vue 2.x to 3.x. In addition to migrating the build from vue-cli to vite and introducing unit test from an environment where it was not introduced to testing-library + vitest. Not only did we achieve the removal of libraries that are EOL, but we also improved performance.",
-                "role": "A frontend developer",
+                "title": "LINE MUSIC WebアプリケーションのVue 2.x から3.xへの移行",
+                "description": "音楽ストリーミングサービスLINE MUSICのWebアプリケーションをvue2.x系から3.x系への移行プロジェクトです。加えてビルドをvue-cliからviteへ、unit testが導入されていなかった状態からtesting-library + vitestを導入。EOLになるライブラリの離脱だけでなくパフォーマンスの改善も達成しました。",
+                "role": "フロントエンドエンジニア",
                 "period": "01/2022 - 07/2022",
                 "techstack": [
                   "Vue",
@@ -153,9 +150,9 @@
                 ]
               },
               {
-                "title": "LINE MUSIC Coin Refund Web App",
-                "description": "Led frontend development of a refund application for LINE MUSIC's song purchase coin feature discontinuation, complying with Payment Services Act. Managed development task breakdown by requirements and design, coordinated development cycles while actively contributing to development. Successfully used Vue 3 for this application as a proof of concept for LINE MUSIC Web app's migration from Vue 2, helping team members familiarize with the new syntax.",
-                "role": "A frontend developer",
+                "title": "LINE MUSIC Coin返金Webアプリ",
+                "description": "音楽ストリーミングサービスLINE MUSICの楽曲購入用コインによる楽曲購入機能終了に伴う、資金決済法に基づいた返金アプリのフロントエンド開発の開発リーダーを担当しました。要件別、デザイン別の開発タスクの切り出しと開発サイクルの調整、自分自身も開発に携わりました。このアプリケーションの開発をVue3で行うことによってメイン業務であるLINE MUSIC Webアプリのvue2からの移行のためのPoC兼メンバーをSyntaxに馴れさせる試みも達成しました。",
+                "role": "リードフロントエンドエンジニア",
                 "period": "01/2022 - 04/2022",
                 "techstack": [
                   "Vue",
@@ -164,14 +161,14 @@
                   "Tailwind CSS"
                 ]
               }
-            ]   
+            ]
           }
         ]
       }
     ]
   },
   "techstack": {
-    "title": "技術スタック",
+    "title": "Tech Stack",
     "content": [
       {
         "name": "HTML",
@@ -184,8 +181,66 @@
           "HTML構造がSEOに与える影響を理解している",
           "HTML Modules や Declarative Shadow DOM など、新しい技術の動向をキャッチアップしている。"
         ]
+      },
+      {
+        "name": "CSS",
+        "level": "上級",
+        "contents": [
+          "CSSの基本的なプロパティ（セレクタ、ボックスモデル、レイアウト、色、フォント、テキスト、アニメーション、トランジションなど）を理解している。",
+          "CSS設計手法（BEM、OOCSS、SMACSS、Atomic Designなど）を理解している。",
+          "レイアウトシフトの対策やハードウェアアクセラレーションの最適化など、パフォーマンスに配慮したCSS設計ができる。",
+          "CSSの最新仕様を試し、実践投入できるか判断できる。",
+          "特定のCSSフレームワークに依存せず、適切な技術選定ができる。"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "上級",
+        "contents": [
+          "JavaScriptの言語仕様の深い理解があり、ES6以降の新機能を使いこなせる。",
+          "モジュール、ファクトリー、シングルトンやオブザーバーパターンなどのデザインパターンを理解している。",
+          "ESM, CommonJS, UMDなどのモジュールシステムを理解している。",
+          "Web APIとブラウザの仕組み（DOM、BOM、Event Loop、非同期処理、クロスオリジン通信、CORS、Cookie、Local Storage、Session Storage、IndexedDB、Service Workerなど）を理解している。",
+          "JavaScriptのパフォーマンス改善やセキュリティ対策について理解している。",
+          "JavaScriptの最新動向（ESNext、TC39の提案、Babel、TypeScript、Flow、WebAssemblyなど）をキャッチアップしている。"
+        ]
+      },
+      {
+        "name": "Vue.js",
+        "level": "上級",
+        "contents": [
+          "Vue3のComposition, Setup APIを使いこなし、Vue2からの移行を主導できる。",
+          "Pinia, Vuex, composablesなどの状態管理ライブラリ、仕組みを使いこなせる。",
+          "Vue routerを使い、SPAの高度なルーティングを構築できる。",
+          "v-once, v-memo, v-bind='object'の適切な活用、virtual-scrollingやkeep-aliveの適用、レンダリングやパフォーマンスの最適化について理解している。",
+          "Container/Presentational パターンやAtomic Designなどの設計手法を理解している。"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "上級",
+        "contents": [
+          "Virtual DOMによる高速なレンダリングの仕組みを理解している。",
+          "React Hooksを使いこなし、Class ComponentからFunction Componentへの移行を主導できる。",
+          "Redux, jotai, Zustand, Context APIなどの状態管理ライブラリ、仕組みを使いこなせる。",
+          "React Query, SWRなどのデータフェッチライブラリを使い、API通信の最適化を行える。",
+          "React Routerを使い、SPAの高度なルーティングを構築できる。",
+          "Container/Presentational パターンやAtomic Designなどの設計手法を理解している。",
+          "Reactのパフォーマンス改善やセキュリティ対策について理解している。"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "上級",
+        "contents": [
+          "App router, Pages routerの違いを理解し、適切なルーティング設計ができる。",
+          "SSR, SSG, CSR, RSCなどのレンダリング方法を理解し、適切な選択ができる。",
+          "画像最適化、コード分割、プリレンダリング、キャッシュ戦略などのパフォーマンス最適化手法を理解している。",
+          "getStaticProps, getServerSideProps, getStaticPathsなどのデータフェッチメソッドを使いこなせる。",
+          "API Routeや"
+        ]
       }
     ]
   },
-  "welcome": "Welcome"
+  "welcome": "ようこそ"
 }

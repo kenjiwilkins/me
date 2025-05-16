@@ -7,7 +7,7 @@ interface SectionProps {
 }
 
 export const Section: FC<SectionProps> = (props) => {
-  const defaultClass = "scroll-mt-14 flex flex-col items-center justify-center space-y-4 py-4";
+  const defaultClass = "min-h-screen w-full flex items-center justify-center";
   const className = props.class ? `${defaultClass} ${props.class}` : defaultClass;
   return (
     <section id={props.id} className={className}>
