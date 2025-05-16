@@ -10,11 +10,11 @@ interface Link {
 
 const links: Link[] = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/experiences", label: "Experiences" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
-  { href: "/blog", label: "Blog" },
+  { href: "/#about", label: "About" },
+  { href: "/#experiences", label: "Experiences" },
+  { href: "/#projects", label: "Projects" },
+  { href: "/#contact", label: "Contact" },
+  { href: "/#blog", label: "Blog" },
 ]
 
 export const Header: FC = () => {
@@ -23,7 +23,7 @@ export const Header: FC = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <header className="bg-gray-900 opacity-90 text-white p-4 sticky top-0 z-50">
+    <header className="bg-transparent opacity-90 text-white p-4 sticky top-0 z-50">
       <nav className="flex justify-between items-center gap-2">
         <Link href="/">
           <span className="text-2xl font-bold flex gap-1">

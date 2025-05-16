@@ -1,0 +1,78 @@
+{
+  "title": "About Me",
+  "techstack": {
+    "title": "Tech Stack",
+    "content": [
+      {
+        "name": "HTML",
+        "level": "Advanced",
+        "contents": [
+          "I understand the tags and their roles in HTML, and can read and understand the HTML Living Standard and HTML5 specifications.",
+          "I can create meaningful markup by using appropriate tags, and can pay attention to a structure that is easy to understand for search engines and screen readers.",
+          "I can use `aria-*` attributes appropriately to build an accessible website.",
+          "I understand the relationship between JavaScript and HTML (event propagation, DOM tree, Shadow DOM, etc.). I can use Web Components (custom elements, Shadow DOM).",
+          "I understand the impact of HTML structure on SEO.",
+          "I keep up with the latest trends in new technologies like HTML Modules and Declarative Shadow DOM."
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Advanced",
+        "contents": [
+          "I understand the basic properties of CSS (selectors, box model, layout, color, font, text, animation, transition, etc.).",
+          "I understand CSS design techniques (BEM, OOCSS, SMACSS, Atomic Design, etc.).",
+          "I can design CSS with performance in mind (layout shift, hardware acceleration, etc.).",
+          "I can judge whether I can apply the latest CSS specifications to practice.",
+          "I can choose appropriate technologies without depending on specific CSS frameworks."
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "contents": [
+          "I have a deep understanding of the language specification of JavaScript, and can use ES6 and later features.",
+          "I understand design patterns like modules, factories, singletons, and observers.",
+          "I understand module systems like ESM, CommonJS, UMD, etc.",
+          "I understand the web API and browser mechanisms (DOM, BOM, Event Loop, asynchronous processing, cross-origin communication, CORS, Cookie, Local Storage, Session Storage, IndexedDB, Service Worker, etc.).",
+          "I understand JavaScript performance improvements and security measures.",
+          "I keep up with the latest trends in JavaScript (ESNext, TC39 proposals, Babel, TypeScript, Flow, WebAssembly, etc.)."
+        ]
+      },
+      {
+        "name": "Vue.js",
+        "level": "Advanced",
+        "contents": [
+          "I can use the Composition, Setup API of Vue3, and can lead the migration from Vue2.",
+          "I can use state management libraries like Pinia, Vuex, composables.",
+          "I can build advanced routing for SPAs using Vue router.",
+          "I understand how to optimize rendering and performance using v-once, v-memo, v-bind='object', virtual-scrolling, and keep-alive.",
+          "I understand design patterns like Container/Presentational and Atomic Design."
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Advanced",
+        "contents": [
+          "I understand the mechanism of fast rendering with Virtual DOM.",
+          "I can use React Hooks, and can lead the migration from Class Component to Function Component.",
+          "I can use state management libraries like Redux, jotai, Zustand, Context API.",
+          "I can optimize API communication using data fetching libraries like React Query, SWR.",
+          "I can build advanced routing for SPAs using React Router.",
+          "I understand design patterns like Container/Presentational and Atomic Design.",
+          "I understand how to improve performance and security in React."
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Advanced",
+        "contents": [
+          "I understand the difference between App router and Pages router, and can design appropriate routing.",
+          "I understand rendering methods like SSR, SSG, CSR, RSC, and can choose appropriate methods.",
+          "I understand performance optimization techniques like image optimization, code splitting, pre-rendering, and caching strategies.",
+          "I can use data fetching methods like getStaticProps, getServerSideProps, getStaticPaths.",
+          "I can use API Routes and Edge Functions."
+        ]
+      }
+    ]
+  }
+}
