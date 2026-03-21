@@ -47,8 +47,6 @@ jobs:
       - name: Setup Pages
         id: setup_pages
         uses: actions/configure-pages@v5
-        with:
-          generator_config_file: next.config.ts
 
       - name: Restore cache
         uses: actions/cache@v4

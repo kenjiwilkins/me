@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Kenji Wilkins",
     images: [
       {
-        url: "/profile.jpeg",
+        url: `${process.env.PAGES_BASE_PATH ?? ""}/profile.jpeg`,
         width: 800,
         height: 800,
         alt: "Kenji Wilkins"
