@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import nextConfig from "@/next.config";
 import "swiper/css";
 import "./home.css"
 import { useEffect, useState } from "react";
@@ -8,6 +9,8 @@ import { Experiences } from "@/components/Experiences";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Blog } from "@/components/Blog";
+
+const basePath = nextConfig.basePath || "";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("en");
@@ -26,7 +29,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 blur-md opacity-60" />
             <Image
-              src="/profile.jpeg"
+              src={`${basePath}/profile.jpeg`}
               alt="Kenji Wilkins"
               width={160}
               height={160}

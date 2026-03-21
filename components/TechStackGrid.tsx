@@ -2,6 +2,9 @@
 import { FC, useRef, useState } from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
+import nextConfig from "@/next.config";
+
+const basePath = nextConfig.basePath || "";
 
 interface TechItem {
   name: string;
@@ -30,7 +33,7 @@ function getTechStackImage(name: string) {
     "MongoDB": "/mongodb.svg",
     "PostgreSQL": "/postgresql.png",
   };
-  return map[name] ?? "/nextjs.png";
+  return `${basePath}${map[name] ?? `${basePath}/nextjs.png`}`;
 }
 
 function getLevelColor(level: string) {
