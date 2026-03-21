@@ -242,5 +242,77 @@
       }
     ]
   },
+  "projects": {
+    "title": "プロジェクト",
+    "content": [
+      {
+        "title": "ポートフォリオサイト",
+        "description": "Next.jsとTailwind CSSで構築した個人ポートフォリオサイト。i18n対応とGitHub Pages向けの静的エクスポートを実装。",
+        "techstack": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "github": "https://github.com/kenjiwilkins/me",
+        "url": ""
+      },
+      {
+        "title": "オンコールエスカレーションシステム",
+        "description": "監視ツールで検知できないOutage発生時に、Slack AppとTwilioを連携して関係するエンジニアやステークホルダーにエスカレーションする自動化システム。",
+        "techstack": ["AWS Lambda", "Slack App", "Twilio API", "TypeScript"],
+        "github": "",
+        "url": ""
+      },
+      {
+        "title": "ブラウザ用メディアプレイヤープラグイン",
+        "description": "ストリーミングサービス向けのブラウザベースメディアプレイヤープラグイン。HLS再生対応、npm・CDN配信パイプラインの自動化を実現。",
+        "techstack": ["TypeScript", "Webpack", "HLS.js", "npm"],
+        "github": "",
+        "url": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "コンタクト",
+    "content": [
+      {
+        "icon": "github",
+        "label": "GitHub",
+        "handle": "kenjiwilkins",
+        "url": "https://github.com/kenjiwilkins"
+      },
+      {
+        "icon": "linkedin",
+        "label": "LinkedIn",
+        "handle": "kenji-wilkins",
+        "url": "https://linkedin.com/in/kenji-wilkins"
+      },
+      {
+        "icon": "mail",
+        "label": "メール",
+        "handle": "contact@kenjiwilkins.com",
+        "url": "mailto:contact@kenjiwilkins.com"
+      }
+    ]
+  },
+  "blog": {
+    "title": "ブログ",
+    "content": [
+      {
+        "title": "大規模Vue 2アプリのVue 3移行記",
+        "date": "2024-12-15",
+        "excerpt": "プロダクションのVue 2からVue 3への移行をリードした経験から、ビルドシステムの変更やテスト戦略についての学びを共有します。",
+        "tags": ["Vue.js", "移行", "TypeScript"]
+      },
+      {
+        "title": "CypressによるE2Eテスト自動化の実践",
+        "date": "2024-10-20",
+        "excerpt": "Cypressを活用して手動リグレッションテストの70%を自動化し、QA期間を半分に短縮した方法を紹介します。",
+        "tags": ["テスト", "Cypress", "CI/CD"]
+      },
+      {
+        "title": "WebViewアプリケーションにおけるSSRパフォーマンス",
+        "date": "2025-01-10",
+        "excerpt": "クライアントサイドSPAからNext.jsによるSSRへの移行が、ネイティブWebView環境でのパフォーマンスに与える影響を検証しました。",
+        "tags": ["Next.js", "SSR", "パフォーマンス"]
+      }
+    ]
+  },
   "welcome": "ようこそ"
 }

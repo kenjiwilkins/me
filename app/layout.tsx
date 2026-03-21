@@ -38,9 +38,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased relative overflow-y-scroll`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative m-0 min-h-screen overflow-scroll bg-black text-white`}
       >
         <Header />
         {children}
