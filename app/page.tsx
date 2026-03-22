@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import nextConfig from "@/next.config";
 import "swiper/css";
 import "./home.css"
 import { useEffect, useState } from "react";
@@ -10,7 +9,7 @@ import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Blog } from "@/components/Blog";
 
-const basePath = nextConfig.basePath || "";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("en");

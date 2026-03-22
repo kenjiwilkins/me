@@ -2,9 +2,8 @@
 import { FC, useRef, useState } from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
-import nextConfig from "@/next.config";
 
-const basePath = nextConfig.basePath || "";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 interface TechItem {
   name: string;
