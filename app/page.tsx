@@ -9,6 +9,8 @@ import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
 import { Blog } from "@/components/Blog";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Home() {
   const [language, setLanguage] = useState<string>("en");
   useEffect(() => {
@@ -26,7 +28,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 blur-md opacity-60" />
             <Image
-              src="/profile.jpeg"
+              src={`${basePath}/profile.jpeg`}
               alt="Kenji Wilkins"
               width={160}
               height={160}
