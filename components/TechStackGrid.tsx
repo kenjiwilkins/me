@@ -31,6 +31,10 @@ function getTechStackImage(name: string) {
     "Vitest": "/vitest.svg",
     "MongoDB": "/mongodb.svg",
     "PostgreSQL": "/postgresql.png",
+    "Playwright": "/playwright.png",
+    "Docker": "/docker.png",
+    "Github Actions": "/github-actions.png",
+    "AI Agents": "/claude.svg"
   };
   return `${basePath}${map[name] ?? `${basePath}/nextjs.png`}`;
 }

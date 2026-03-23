@@ -239,6 +239,82 @@
           "I am proficient with data fetching methods like getStaticProps, getServerSideProps, and getStaticPaths.",
           "I can work with API Routes and Edge Functions."
         ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Advanced",
+        "contents": [
+          "I have deep understanding of the type system, including Generics, Conditional Types, Mapped Types, and Template Literal Types.",
+          "I have led TypeScript adoption in existing JavaScript projects, designing and executing incremental migration strategies.",
+          "I can create and maintain type definitions (.d.ts) for libraries and APIs.",
+          "I leverage type-level programming to catch runtime errors at compile time.",
+          "I understand tsconfig.json options thoroughly and can configure optimal settings for each project."
+        ]
+      },
+      {
+        "name": "Node.js",
+        "level": "Advanced",
+        "contents": [
+          "I understand Node.js core concepts including the event loop, streams, and buffers.",
+          "I have experience building API servers with frameworks like Express and Fastify.",
+          "I can manage npm/pnpm packages, set up monorepo configurations, and build publishing pipelines to internal npm registries.",
+          "I have experience running Node.js in serverless environments such as AWS Lambda.",
+          "I utilize Node.js for building CLI tools and build scripts."
+        ]
+      },
+      {
+        "name": "Playwright",
+        "level": "Advanced",
+        "contents": [
+          "I can design and implement cross-browser E2E tests across Chromium, Firefox, and WebKit.",
+          "I design maintainable tests using the Page Object Model pattern.",
+          "I build advanced test scenarios using network interception, mocking, and request validation.",
+          "I optimize Playwright execution in CI environments with parallel runs and retry strategies.",
+          "I leverage Playwright for visual regression testing and automated accessibility testing."
+        ]
+      },
+      {
+        "name": "Vitest",
+        "level": "Advanced",
+        "contents": [
+          "I can design and implement unit and component tests in Vite-based projects.",
+          "I use mocks, spies, and stubs effectively to ensure test isolation and reliability.",
+          "I have experience integrating Testing Library with Vitest for component testing.",
+          "I configure coverage reporting and CI integration for test quality visibility.",
+          "I have led the introduction of Vitest into projects that previously had no testing."
+        ]
+      },
+      {
+        "name": "Docker",
+        "level": "Advanced",
+        "contents": [
+          "I understand Dockerfile optimization (multi-stage builds, layer caching) and can build efficient images.",
+          "I can set up and manage local development environments using Docker Compose.",
+          "I have experience containerizing frontend applications and integrating them into CI/CD pipelines.",
+          "I have experience deploying containers on Kubernetes clusters."
+        ]
+      },
+      {
+        "name": "Github Actions",
+        "level": "Advanced",
+        "contents": [
+          "I can design and build CI/CD workflows to automate builds, tests, and deployments.",
+          "I can create custom actions and select appropriate third-party actions.",
+          "I optimize workflows using matrix builds, caching strategies, and parallel execution.",
+          "I have experience building automated deployment pipelines to GitHub Pages and Vercel.",
+          "I build secure CI/CD environments with proper secret management and environment variable handling."
+        ]
+      },
+      {
+        "name": "AI Agents",
+        "level": "Advanced",
+        "contents": [
+          "I integrate coding assistants like Claude Code and GitHub Copilot into my daily development workflow to boost productivity.",
+          "I have experience integrating AI features into frontends using the Vercel AI SDK and Anthropic SDK.",
+          "I understand prompt engineering fundamentals and can design and implement LLM-powered features.",
+          "I properly review and validate AI tool outputs to ensure quality and security.",
+          "I leverage AI agents for automated code review, test generation, and documentation."
+        ]
       }
     ]
   },
